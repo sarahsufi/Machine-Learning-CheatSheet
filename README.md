@@ -123,9 +123,9 @@ Unsupervised learning works on unlabeled data to find patterns.
 ---
 
 ## Feature Engineering
-1. **Normalization/Standardization**:
-   - **Normalization**: Rescale data to [0, 1].
-   - **Standardization**: Rescale data to have mean 0, variance 1.
+1. **Normalisation/Standardisation**:
+   - **Normalisation**: Rescale data to [0, 1].
+   - **Standardisation**: Rescale data to have mean 0, variance 1.
 
 2. **Handling Missing Data**:
    - Remove missing values.
@@ -142,14 +142,14 @@ Unsupervised learning works on unlabeled data to find patterns.
 
 ---
 
-## Model Optimization
+## Model Optimisation
 1. **Hyperparameter Tuning**:
    - Use Grid Search or Random Search to find the best parameters.
    - Libraries: `GridSearchCV`, `RandomizedSearchCV`.
 
-2. **Regularization**:
-   - **L1 Regularization (Lasso)**: Shrinks coefficients to zero, useful for feature selection.
-   - **L2 Regularization (Ridge)**: Penalizes large coefficients to reduce overfitting.
+2. **Regularisation**:
+   - **L1 Regularisation (Lasso)**: Shrinks coefficients to zero, useful for feature selection.
+   - **L2 Regularisation (Ridge)**: Penalizes large coefficients to reduce overfitting.
 
 ---
 
@@ -165,7 +165,7 @@ Unsupervised learning works on unlabeled data to find patterns.
 
 ## Overfitting & Underfitting
 - **Overfitting**: Model performs well on training data but poorly on test data.
-  - **Solution**: Use regularization, collect more data, reduce model complexity.
+  - **Solution**: Use regularisation, collect more data, reduce model complexity.
   
 - **Underfitting**: Model performs poorly on both training and test data.
   - **Solution**: Use a more complex model, add more features.
